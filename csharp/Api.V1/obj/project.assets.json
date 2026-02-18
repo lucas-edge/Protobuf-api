@@ -1,0 +1,104 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Google.Protobuf >= 3.28.2",
+      "Grpc.AspNetCore >= 2.66.0",
+      "Grpc.AspNetCore.Web >= 2.66.0",
+      "Grpc.Tools >= 2.66.0"
+    ]
+  },
+  "packageFolders": {
+    "/var/folders/1t/bzg7r0sj6w55zhg_x0f7khyh0000gn/T/cursor-sandbox-cache/3746dd39938d77b5efd1429a42d05836/nuget": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/lucaslee/code/edge-ark/protobuf-api/csharp/Api.V1/Api.V1.csproj",
+      "projectName": "Api.V1",
+      "projectPath": "/Users/lucaslee/code/edge-ark/protobuf-api/csharp/Api.V1/Api.V1.csproj",
+      "packagesPath": "/var/folders/1t/bzg7r0sj6w55zhg_x0f7khyh0000gn/T/cursor-sandbox-cache/3746dd39938d77b5efd1429a42d05836/nuget",
+      "outputPath": "/Users/lucaslee/code/edge-ark/protobuf-api/csharp/Api.V1/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/lucaslee/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.100"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Google.Protobuf": {
+            "target": "Package",
+            "version": "[3.28.2, )"
+          },
+          "Grpc.AspNetCore": {
+            "target": "Package",
+            "version": "[2.66.0, )"
+          },
+          "Grpc.AspNetCore.Web": {
+            "target": "Package",
+            "version": "[2.66.0, )"
+          },
+          "Grpc.Tools": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.66.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.103/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.\n  nodename nor servname provided, or not known (api.nuget.org:443)\n  nodename nor servname provided, or not known"
+    }
+  ]
+}

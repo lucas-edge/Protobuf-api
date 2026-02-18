@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Api.V1</RootNamespace>
+    <GenerateProtoBufCode>true</GenerateProtoBufCode>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.28.2" />
+    <PackageReference Include="Grpc.AspNetCore" Version="2.66.0" />
+    <PackageReference Include="Grpc.AspNetCore.Web" Version="2.66.0" />
+    <PackageReference Include="Grpc.Tools" Version="2.66.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <!-- Proto 根目录（相对于本 csproj 的上级） -->
+  <ItemGroup>
+    <Protobuf Include="..\..\proto\api\v1\hello.proto" GrpcServices="None" />
+    <Protobuf Include="..\..\proto\api\v1\service.proto" GrpcServices="Server" />
+  </ItemGroup>
+
+</Project>

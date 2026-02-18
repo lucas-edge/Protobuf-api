@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "6n7AMs6TX5k=",
+  "success": false,
+  "projectFilePath": "/Users/lucaslee/code/edge-ark/protobuf-api/csharp/Api.V1/Api.V1.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.\n  nodename nor servname provided, or not known (api.nuget.org:443)\n  nodename nor servname provided, or not known",
+      "projectPath": "/Users/lucaslee/code/edge-ark/protobuf-api/csharp/Api.V1/Api.V1.csproj",
+      "filePath": "/Users/lucaslee/code/edge-ark/protobuf-api/csharp/Api.V1/Api.V1.csproj",
+      "targetGraphs": []
+    }
+  ]
+}
